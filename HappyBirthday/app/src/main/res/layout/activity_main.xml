@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#CFD8DC"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType = "centerCrop"/>
+
+    <TextView
+        android:id = "@+id/happy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday Mummy!"
+        android:paddingLeft ="20dp"
+        android:paddingTop = "16dp"
+        android:textSize = "36sp"
+        android:textStyle = "bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor = "@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="From, Monu!"
+        android:textSize="36sp"
+        android:paddingRight = "20dp"
+        android:paddingBottom="20dp"
+        android:textStyle = "bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor = "@android:color/white" />
+
+
+
+
+</RelativeLayout>

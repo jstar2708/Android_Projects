@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src = "@drawable/i"
+        android:scaleType = "centerCrop" />
+
+    <TextView
+        android:id = "@+id/team_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team India"
+        android:textAllCaps = "true"
+        android:textSize = "40sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textStyle = "bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop = "80dp"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text = "India’s 15-man squad:\n
+Virat Kohli (Capt)\nRohit Sharma (vc)\nKL Rahul\nSuryakumar Yadav\nRishabh Pant (wk)\nIshan Kishan (wk)\n
+Hardik Pandya\nRavindra Jadeja\nRahul Chahar\nRavichandran Ashwin\nAxar Patel\n
+Varun Chakravarthy\nJasprit Bumrah\nBhuvneshwar Kumar\nMohd Shami."/>
+
+
+</RelativeLayout>

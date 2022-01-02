@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_app_view"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="@color/orange_50"
+        android:src = "@drawable/ic_launcher_background" />
+
+
+    <LinearLayout
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_toRightOf="@id/image_app_view"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/miwok_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            tools:text="miwok"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/white"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/english_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/white"
+            tools:text="english"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+
+        android:src="@drawable/outline_play_circle_filled_24" />
+
+
+</RelativeLayout>

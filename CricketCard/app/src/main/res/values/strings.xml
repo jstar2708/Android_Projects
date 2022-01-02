@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cricket Card</string>
+    <string name="team1">Team A</string>
+    <string name="team2">Team B</string>
+</resources>
