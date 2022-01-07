@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:background="@color/Pink_A200"
+        android:layout_height="100dp"
+        android:id="@+id/content_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:id="@+id/content_miwok_text"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/content_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/content_eng_text"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/content_image"
+        android:layout_below="@id/content_miwok_text"/>
+
+    <ImageView
+        android:background="@color/Gray_300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_button"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/outline_play_circle_filled_white_24"/>
+
+</RelativeLayout>

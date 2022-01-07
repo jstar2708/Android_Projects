@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/MainPage"
+            android:background="@color/Pink_200"
+            android:text="@string/numbers"
+            android:id="@+id/numbers_main"
+            />
+
+        <TextView
+            style="@style/MainPage"
+            android:background="@color/Pink_300"
+            android:text="@string/Family_Members"
+            android:id="@+id/family_main"/>
+        <TextView
+            style="@style/MainPage"
+            android:background="@color/Pink_400"
+            android:text="@string/Colors"
+            android:id="@+id/colors_main"
+            />
+        <TextView
+            style="@style/MainPage"
+            android:background="@color/Pink_500"
+            android:text="@string/Phrases"
+            android:id="@+id/phrases_main"
+            />
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
