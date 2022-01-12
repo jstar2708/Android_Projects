@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Travel Mate</string>
+    <string name="welcome">Welcome to Travel Mate!</string>
+    <string name="intro">Dear guests, \n\n
+
+Let me introduce myself. My name is Lili. I am your guide and will support you during the tour. I promise you are going to enjoy your stay here in Jabalpur. This is a beautiful, quiet city where you can relax, enjoy great meals and feel very safe. You can walk into town and enjoy the fountains or take a moonlit walk along the water.</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Please enter your name here</string>
+    <string name="next">next</string>
+    <string name="history">History</string>
+    <string name="parks">Parks</string>
+    <string name="Near_Water">Near Water</string>
+    <string name="museums">Museums</string>
+    <string name="others">Others</string>
+</resources>

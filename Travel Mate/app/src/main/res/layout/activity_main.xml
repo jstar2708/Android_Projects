@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    android:background="@drawable/pawel"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/welcome_text"
+            style="@style/main_Act"
+            android:text="@string/welcome"
+            android:textSize="45sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/intro_text"
+            style="@style/main_Act"
+            android:text="@string/intro"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:layout_below="@id/welcome_text"/>
+        <TextView
+            android:id="@+id/enter_name_text"
+            style="@style/main_Act"
+            android:text="@string/enter_name"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:textSize="20sp"
+            android:layout_below="@id/intro_text"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/fab_button"
+            android:layout_below="@id/enter_name_text"
+            android:hint="@string/name"
+            android:paddingTop="20dp" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
